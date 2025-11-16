@@ -124,105 +124,41 @@ Quiz, Question, AnswerOption, QuizSubmission
 
 👤 Пользователи (/api/users)
 
-Метод
+Методы:
 
-Путь
+GET - /api/users -Получить список всех пользователей
 
-Описание
+GET - /api/users/{id} - Получить пользователя по ID
 
-GET
+POST - /api/users - Создать нового пользователя (JSON-тело)
 
-/api/users
+PUT - /api/users/{id} - Обновить данные пользователя
 
-Получить список всех пользователей
-
-GET
-
-/api/users/{id}
-
-Получить пользователя по ID
-
-POST
-
-/api/users
-
-Создать нового пользователя (JSON-тело)
-
-PUT
-
-/api/users/{id}
-
-Обновить данные пользователя
-
-DELETE
-
-/api/users/{id}
-
-Удалить пользователя
+DELETE - /api/users/{id} - Удалить пользователя
 
 📚 Курсы (/api/courses)
 
-Метод
+Методы: 
 
-Путь
+GET - /api/courses - Получить список всех курсов
 
-Описание
+GET - /api/courses/{id} - Получить курс по ID
 
-GET
+POST - /api/courses - Создать новый курс (JSON-тело)
 
-/api/courses
+PUT - /api/courses/{id} - Обновить данные курса
 
-Получить список всех курсов
-
-GET
-
-/api/courses/{id}
-
-Получить курс по ID
-
-POST
-
-/api/courses
-
-Создать новый курс (JSON-тело)
-
-PUT
-
-/api/courses/{id}
-
-Обновить данные курса
-
-DELETE
-
-/api/courses/{id}
-
-Удалить курс
+DELETE - /api/courses/{id} - Удалить курс
 
 📝 Записи на курсы (/api/enrollments)
 
-Метод
+Метод: 
 
-Путь
+GET - /api/enrollments - Получить список всех записей
 
-Описание
+POST - /api/enrollments - Записать студента на курс (JSON-тело)
 
-GET
-
-/api/enrollments
-
-Получить список всех записей
-
-POST
-
-/api/enrollments
-
-Записать студента на курс (JSON-тело)
-
-GET
-
-/api/enrollments/student/{studentId}
-
-Получить все записи по ID студента
+GET - /api/enrollments/student/{studentId} - Получить все записи по ID студента
 
 💡 Примеры Использования (cURL)
 
