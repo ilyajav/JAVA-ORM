@@ -72,7 +72,7 @@ http://localhost:8080/h2-console
 
 При подключении к H2 Console используйте следующие параметры:
 
-JDBC URL: jdbc:h2:file:./learning_platform
+JDBC URL: jdbc:h2:file:./data_learning
 
 User: skillfactory
 
